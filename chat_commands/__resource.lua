@@ -1,6 +1,6 @@
 resource_manifest_version '44febabe-d386-4d18-afbe-5e627f4af937'
 
-name 'Simple Command System'
+name 'Simple Commands System'
 author 'TheRealToxicDev'
 contact 'https://redirect.toxicdev.me/discord'
 version '1.0.0'
