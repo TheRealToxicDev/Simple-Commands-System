@@ -27,7 +27,7 @@ client_script 'modules/cl_*.lua'
 server_script 'modules/sv_*.lua'
 shared_script 'modules/sh_*.lua'
 
-server_script 'system/sv_pre.lua'
+server_script 'system/server/pre.lua'
 server_script "commands/*.lua"
 
 server_script 'system/server/fxcheck_*.lua'
