@@ -1,7 +1,7 @@
 if SETTINGS.check_updates then
     log("Checking for updates...")
     Citizen.CreateThread( function()
-        local updatePath = "/TheRealToxicDev/FiveM-Simple-Commands"
+        local updatePath = "/TheRealToxicDev/Simple-Commands-System"
         local resourceName = "FiveM Chat Command System ("..GetCurrentResourceName()..")"
         function checkVersion(err, responseText, headers)
             local curVersion = LoadResourceFile(GetCurrentResourceName(), "version")
