@@ -2,7 +2,7 @@ if SETTINGS.check_updates then
     log("Checking for updates...")
     Citizen.CreateThread( function()
         local updatePath = "/TheRealToxicDev/Simple-Commands-System"
-        local resourceName = "FiveM Chat Command System ("..GetCurrentResourceName()..")"
+        local resourceName = "Simple Commands System ("..GetCurrentResourceName()..")"
         function checkVersion(err, responseText, headers)
             local curVersion = LoadResourceFile(GetCurrentResourceName(), "version")
             if not responseText then
@@ -34,7 +34,7 @@ RegisterCommand(GetCurrentResourceName(), function(_, args)
         log("###############################")
         log("Updating resource")
         log("###############################")
-        local updatePath = "/glitchdetector/fivem-chat-commands" -- your git user/repo path
+        local updatePath = "TheRealToxicDev/Simple-Commands-System"
         PerformHttpRequest("https://raw.githubusercontent.com"..updatePath.."/master/autoupdate", function(err, responseText, headers)
             local function updateFile(fileName)
                 local ok = false
