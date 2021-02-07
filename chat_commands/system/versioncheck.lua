@@ -1,10 +1,10 @@
 if SETTINGS.check_updates then
     log("Checking for updates...")
     Citizen.CreateThread( function()
-        local updatePath = "/glitchdetector/fivem-chat-commands" -- your git user/repo path
-        local resourceName = "FiveM Chat Command System ("..GetCurrentResourceName()..")" -- the resource name
+        local updatePath = "/TheRealToxicDev/FiveM-Simple-Commands"
+        local resourceName = "FiveM Chat Command System ("..GetCurrentResourceName()..")"
         function checkVersion(err, responseText, headers)
-            local curVersion = LoadResourceFile(GetCurrentResourceName(), "version") -- make sure the "version" file actually exists in your resource root!
+            local curVersion = LoadResourceFile(GetCurrentResourceName(), "version")
             if not responseText then
                 log("Update check failed, where did the remote repository go?")
             elseif curVersion ~= responseText and tonumber(curVersion) < tonumber(responseText) then
