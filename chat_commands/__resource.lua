@@ -1,8 +1,8 @@
 resource_manifest_version '44febabe-d386-4d18-afbe-5e627f4af937'
 
-name 'Chat Command System'
-author 'glitchdetector'
-contact 'glitchdetector@gmail.com'
+name 'Simple Command System'
+author 'TheRealToxicDev'
+contact 'https://redirect.toxicdev.me/discord'
 version '1.0.0'
 
 description 'A configurable and extendable chat command system, designed for easy drag-and-drop usage.'
@@ -19,7 +19,7 @@ server_script '@vrp/lib/utils.lua'
 -- ESX compatibility
 server_script '@mysql-async/lib/MySQL.lua'
 
-client_script 'system/cl_proximity.lua'
+client_script 'system/client/proximity.lua'
 
 shared_script 'settings.lua'
 
@@ -30,7 +30,7 @@ shared_script 'modules/sh_*.lua'
 server_script 'system/sv_pre.lua'
 server_script "commands/*.lua"
 
-server_script 'system/sv_fxcheck_*.lua'
-server_script 'system/sv_chat_commands.lua'
+server_script 'system/server/fxcheck_*.lua'
+server_script 'system/server/commands.lua'
 
 server_script 'system/versioncheck.lua'
