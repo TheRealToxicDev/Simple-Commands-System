@@ -1,7 +1,7 @@
 <h1 align="center">Copyright and License</h1>
 <p align="center">Terms Used</p>
 
-- Toxic ("Author", "Coder", "Creator", "Developer" "Toxic Dev", "TheRealToxicDev", "Me", "My")
+- Toxic ("Author", "Coder", "Creator", "Developer" "Toxic Dev", "TheRealToxicDev", "Me", "My", "Us", "We")
 - Content ("code", "codes", "assets", "source", "sources")
 - User ("You", "User", "they", "them", "their")
 ---
